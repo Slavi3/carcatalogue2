@@ -1,6 +1,4 @@
 package com.example.stan.carcatalogue7.views.CarsList;
-
-import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,6 +13,7 @@ import com.example.stan.carcatalogue7.views.CarDetails.CarDetailsPresenter;
 
 import javax.inject.Inject;
 
+import dagger.Module;
 public class CarsListActivity extends
         BaseDrawerActivity
         implements CarsListContracts.Navigator {
